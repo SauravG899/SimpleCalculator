@@ -1,3 +1,6 @@
+mod stats_calculator;
+
 fn main(){
-    print!("Hello World!")
+    stats_calculator::run();
+
 }
