@@ -2,12 +2,12 @@ use std::collections::HashMap;
 use std::io;
 use std::str::FromStr;
 
-// enum (stands for "enumeration") means choices
+
 pub enum OperationType {
     Mean,
     Median,
     Mode,
-    // Quadratic 
+ 
 }
 
 impl FromStr for OperationType {
